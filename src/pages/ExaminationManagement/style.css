@@ -1,0 +1,48 @@
+.btn {
+  border: none;
+  padding: 7px 15px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.addContainer {
+  position: absolute;
+  background-color: #00000033;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addContainer form {
+  width: 420px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  height: 400px;
+  border-radius: 5px;
+}
+
+.addContainer form input {
+  font-size: 18px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.addContainer form label {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.addContainer form button {
+  background-color: blue;
+  color: white;
+  font-weight: 550px;
+  margin-top: 10px;
+}
